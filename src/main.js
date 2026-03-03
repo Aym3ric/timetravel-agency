@@ -17,7 +17,7 @@ const destinations = [
     title: 'Paris 1889',
     subtitle: 'Exposition Universelle',
     description: 'Vivez l\'effervescence de la Belle Époque et assistez à l\'inauguration de la Tour Eiffel.',
-    image: '/images/paris_1889.png',
+    image: './images/paris_1889.png',
     color: '#e2b808'
   },
   {
@@ -25,7 +25,7 @@ const destinations = [
     title: 'Crétacé',
     subtitle: '-65 Millions d\'années',
     description: 'Rencontrez les géants du passé dans leur habitat naturel avant le grand cataclysme.',
-    image: '/images/cretaceous.png',
+    image: './images/cretaceous.png',
     color: '#22c55e'
   },
   {
@@ -33,7 +33,7 @@ const destinations = [
     title: 'Florence 1504',
     subtitle: 'Âge d\'or Artistique',
     description: 'Plongez dans la Renaissance italienne et côtoyez les plus grands génies de l\'Histoire.',
-    image: '/images/florence.png',
+    image: './images/florence.png',
     color: '#ef4444'
   }
 ];
@@ -41,7 +41,7 @@ const destinations = [
 document.querySelector('#app').innerHTML = `
   <nav class="glass">
     <div class="logo-container">
-      <img src="/images/logo.png" alt="Logo" class="logo-img" />
+      <img src="./images/logo.png" alt="Logo" class="logo-img" />
       <span class="brand-name">TimeTravel</span>
     </div>
     <div class="nav-links" style="display: flex; align-items: center;">
@@ -53,7 +53,7 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section class="hero">
       <video autoplay loop muted playsinline class="hero-video-bg">
-        <source src="/videos/mon-voyage.mp4" type="video/mp4">
+        <source src="./videos/mon-voyage.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay"></div>
       <div class="hero-content">
