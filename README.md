@@ -2,6 +2,9 @@
 
 Webapp pour une agence de voyage temporel fictive, créée avec l'aide d'IA génératives.
 
+## Participants
+Aymeric THEVENET - Lucas MADJINDA - Amadou MBODJ - Junior CHIMENE
+
 ## 🛠️ Stack Technique
 - Vite (Bundler ultra-rapide)
 - JavaScript Vanilla (sans framework externe)
@@ -17,7 +20,7 @@ Webapp pour une agence de voyage temporel fictive, créée avec l'aide d'IA gén
 - **Formulaire de réservation** intégré au design de la page
 - **Animations fluides** : transitions au défilement et effets visuels premium
 
-## 🤖 IA Utilisées (transparence)
+## 🤖 IA Utilisées 
 - **Code & V2 Interactive** : Gemini / Antigravity Agent (Google) pour le développement complet, l'architecture, l'intégration API et le CSS
 - **Chatbot** : Modèle `mistral-small-latest` via l'API officielle de Mistral AI
 - **Visuels & Médias** : 
